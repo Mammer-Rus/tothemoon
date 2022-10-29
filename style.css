@@ -1,0 +1,292 @@
+.logo{
+	width: 150px;
+	position:relative;
+	margin-top:-250px;
+	margin-left:15px;
+}
+
+
+
+
+
+
+.photo-icon{
+	width: 100px;
+}
+
+body{
+	background: url(starry_sky_cosmos.jpg);
+	color: white;
+}
+
+.partneri{
+	border:;
+}
+header{
+	background-image:url(luna-luna-v-kosmose-nebo-zvezdy-zvezdnoe-nebo-moon-kosmos-sp.jp);
+	background-position:center;
+	margin-bottom: 10px;
+}
+.slogon{
+	font-size:45px;
+	-webkit-text-stroke:0px;
+	bottom:center;
+	background-position:center;
+	text-align:center;
+	padding-top:100px;
+	padding-left:270px;
+	color:white;
+}
+header button{
+	float:right;
+	position:relative;
+	margin-top:-50px;
+	background:silver;
+	margin-right:10px;
+}
+.journey{
+	position:relative;
+	float:right;
+}
+.PASSPORT{
+	width:100px;
+}
+.boots{
+	width:100px;
+}
+.kriptovaluta{
+	width:100px;
+}
+.phone{
+	width:100px;
+}
+.buterbrod{
+	width:100px;
+}
+.kupalnik{
+	width:100px;
+}
+ul{
+	padding: 10px 0px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background:none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	border:2px solid;
+	border-radius: 5px;
+	margin-left: 15px;
+	padding: 0px 10px;
+	color:black;
+	background:white;
+	font-size: 20px;
+	text-shadow:black;
+}
+td:hover{
+	background: white;
+	color: black;
+}
+h2{
+	text-align: center;
+}
+
+.slider img{
+	margin-right: 10px;
+}
+.slaids{
+	display: none;
+	justify-content: center;
+	align-items: center;
+	order: -1;
+}
+input#slaid1:checked~.slaid1,
+input#slaid2:checked~.slaid2,
+input#slaid3:checked~.slaid3,
+input#slaid4:checked~.slaid4{
+	display:flex;
+}
+.brands{
+	background: url(brands.jpg)no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-flex;
+}
+.intel{
+	background-position: -187px -169px;
+}
+.adidas{
+	background-position: -65px 0px;
+
+}
+.HYUDAI{
+	background-position: -4px -170px;
+}
+.mazda{
+	background-position: -3px -222px;
+}
+.NIKE{
+	background-position: -3px -285px;
+}
+.coca_cola{
+	background-position: -125px -55px;
+}
+.colgate{
+	background-position: -248px -55px;
+}
+.google{
+	background-position: -248px -110px;
+}
+.jaguar{
+	background-position: -248px -168px;
+}
+.master_card{
+	background-position: -554px -168px;
+}
+.partneri_flex{
+display:flex;
+justify-content: space-around;
+margin-bottom: 100px;
+}
+.osobennosti{
+	display: flex;
+	justify-content:center;
+	margin-bottom: 100px;
+
+}
+.preimuch{
+display: flex;
+justify-content: flex-start;
+justify-content:center;
+margin-bottom: 100px;
+}
+.slider{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap: wrap;
+	width:30%;
+	margin:auto;
+	margin-bottom: 100px;
+}
+
+.slider input{
+	position: relative;
+	top: 40px;
+	left: -250px;
+
+}
+nav{
+	padding-bottom: 10px;
+}
+.ne_zabut{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.ostavit_doma{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.ne_zabut_h3{
+	padding-top: 50px;
+	text-align: justify;
+}
+.ostavit_doma_h3{
+	text-align: justify;
+	margin-top: 100px;
+	padding-top: 
+}
+br{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.Consul{
+	padding-top: 0px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#consultants{
+	margin-top: 100px;
+
+}
+.table{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0px;
+	margin-bottom: 100px;
+}
+.naznanie_oteli{
+}
+.moon-rocket{
+
+}
+.hotel{
+    display: none;
+    flex-direction: column;
+}
+
+input#three:checked~.three{
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+}
+
+input#four:checked~.four{
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+}
+
+input#five:checked~.five{
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+}
+
+input#all:checked~.three,
+input#all:checked~.four,
+input#all:checked~.five{
+    display: flex;
+    flex-direction: column;	
+    align-items: center;
+}
+
+.filter{
+	text-align: center;
+}
+#osobennosti{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+}
+.text_moon_rocket_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.span_moon{
+	width: 70%;
+	font-size:130%;
+}
+.text_moon_rocket_2{
+	width: 100%;
+	height: 50%;
+	font-size: 160%;
+}
+#poleznaya_informaciya{
+
+}
